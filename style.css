@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: center;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #d82a2a, #430aee)
+}
+
+.caja{
+width: 1050px;
+height: 300px;
+margin: 20px 25px;
+display: flex;
+align-items: left;
+}
+
+.pizza{
+    width: 525px;
+height: 300px;
+margin: 20px 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.img{
+    max-height: 100%;
+
+}
+
+.info{
+    width: 525px;
+height: 300px;
+margin: 20px 25px;
+flex:1;
+display: flex;
+align-items: center;
+}
+
+.info .uno{
+    flex: 1;
+    align-items: center;
+}
+.info .dos {
+    flex:1;
+    align-items: center;
+}
+.info .tres{
+    flex: 1;
+    align-items: center;
+}
+
+.boton{
+    height: auto;
+    width: 50px;
+    color: black;
+    background-color: #fff;
+    font-size: 3rem;
+    border-radius: 5px;
+}
